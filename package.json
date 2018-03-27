@@ -1,6 +1,6 @@
 {
   "name": "string-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple library that combines data as one string. Can be used to add class attributes to html elements.",
   "main": "index.js",
   "repository": "https://github.com/voil/string-types.git",
@@ -10,6 +10,9 @@
     "build": "babel ./src/index.js > index.js --no-comments",
     "test": "mocha __tests__/*.js --compilers js:babel-core/register"
   },
+  "keywords": [
+    "module", "string", "join", "types", "class", "names" 
+  ],
   "devDependencies": {
     "babel-core": "6.16.0",
     "babel-loader": "6.2.7",
